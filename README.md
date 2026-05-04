@@ -1,7 +1,4 @@
-# 297-02-TrackAG1 — Qwen LLM Governance Audit
-
-**CMPE 297-02 | San José State University | Spring 2026**  
-**Team:** Jimmy Chung · Harshit Jangam · Rajitha Muthukrishnan · Irwin Salamanca · Ritesh Rakesh Singh
+# Qwen LLM Governance Audit
 
 ---
 
