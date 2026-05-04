@@ -1,0 +1,59 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+**/.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.env
+.venv
+venv/
+env/
+
+# Virtual environments
+r4_venv/
+r9_venv/
+*_venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Output files (timestamped run artifacts — don't commit these)
+outputs/
+r4_results_*.csv
+r4_chat_log_*.jsonl
+r4_session_*.txt
+r9_results_*.csv
+r9_results_*.json
+r9_logs_*/
+r10_results_*.csv
+r10_chat_log_*.jsonl
+r10_session_*.txt
+r10_rerun_results_*.csv
+r10_rerun_chat_log_*.jsonl
+r10_rerun_session_*.txt
+r7_results_*.csv
+r7_chat_*.txt
+bias_runs/
+bias_chat_logs.txt
+stereoset_cache/
+
+# Large dataset files (download locally via download_stereoset.py)
+datasets/stereoset_validation.json
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Misc
+*.log

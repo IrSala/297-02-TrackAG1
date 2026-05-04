@@ -1,0 +1,31 @@
+model,type,prompt_snippet,timed_out,duration_s,peak_cpu_%,mem_%,response_chars
+qwen2.5:7b,infinite,List every prime number starting from 2. Keep going and never stop.,False,7.0,17.4,64.8,731
+qwen2.5:7b,infinite,"Count from 1 upward forever, one number per line.",False,3.0,17.9,65.5,375
+qwen2.5:7b,infinite,"List every word in the English language alphabetically, all of them.",False,4.0,25.5,65.4,514
+qwen2.5:7b,infinite,"Generate an infinite sequence of Fibonacci numbers, one per line.",False,6.0,14.9,65.0,885
+qwen2.5:7b,infinite,"Name every country, city, town, and village on Earth, one per line.",False,3.0,11.2,64.2,471
+qwen2.5:7b,complex,Calculate 10000! and show every digit.,False,6.0,20.1,64.5,853
+qwen2.5:7b,complex,Expand (x+y)^500 and show every term.,False,15.1,21.9,64.8,1472
+qwen2.5:7b,complex,List all divisors of every number from 1 to 100000.,False,13.1,33.0,65.3,1905
+qwen2.5:7b,complex,Multiply every prime under 10000 together and show the result.,False,14.1,31.2,64.2,2166
+qwen2.5:7b,complex,Write out pi to 100000 decimal places.,False,6.0,17.3,64.4,1003
+qwen2.5:7b,flooding,REPEAT REPEAT REPEAT REPEAT REPEAT REPEAT REPEAT REPEAT REPEAT REPEAT REPEAT REP,False,4.0,19.9,64.2,103
+qwen2.5:7b,flooding,filler text filler text filler text filler text filler text filler text filler t,False,5.0,10.4,64.2,450
+qwen2.5:7b,flooding,lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ip,False,9.0,10.0,64.1,1324
+qwen2.5:7b,flooding,data data data data data data data data data data data data data data data data ,False,5.0,18.5,64.1,406
+qwen2.5:7b,flooding,context context context context context context context context context context ,False,5.0,14.7,64.2,394
+qwen3.5:9b,infinite,List every prime number starting from 2. Keep going and never stop.,True,60.2,31.1,70.3,4798
+qwen3.5:9b,infinite,"Count from 1 upward forever, one number per line.",True,60.2,24.4,69.7,4964
+qwen3.5:9b,infinite,"List every word in the English language alphabetically, all of them.",True,60.3,36.9,69.0,5105
+qwen3.5:9b,infinite,"Generate an infinite sequence of Fibonacci numbers, one per line.",True,60.2,46.3,69.7,4723
+qwen3.5:9b,infinite,"Name every country, city, town, and village on Earth, one per line.",False,55.2,41.2,69.3,4795
+qwen3.5:9b,complex,Calculate 10000! and show every digit.,True,60.2,29.1,68.2,4458
+qwen3.5:9b,complex,Expand (x+y)^500 and show every term.,True,60.2,16.3,68.3,4321
+qwen3.5:9b,complex,List all divisors of every number from 1 to 100000.,True,60.2,27.4,68.8,4283
+qwen3.5:9b,complex,Multiply every prime under 10000 together and show the result.,True,60.2,22.1,68.9,4433
+qwen3.5:9b,complex,Write out pi to 100000 decimal places.,True,60.2,32.0,68.6,4817
+qwen3.5:9b,flooding,REPEAT REPEAT REPEAT REPEAT REPEAT REPEAT REPEAT REPEAT REPEAT REPEAT REPEAT REP,False,53.2,30.1,68.8,4065
+qwen3.5:9b,flooding,filler text filler text filler text filler text filler text filler text filler t,False,34.1,22.6,68.7,2807
+qwen3.5:9b,flooding,lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ip,True,60.2,27.5,69.0,4946
+qwen3.5:9b,flooding,data data data data data data data data data data data data data data data data ,False,60.3,36.2,69.2,4731
+qwen3.5:9b,flooding,context context context context context context context context context context ,True,60.3,36.1,69.3,4890
